@@ -1,9 +1,9 @@
 # Halgo
-Extended Iterator lib. This library is made to learn rust iterator and some list manipulation algorithm. Some function taken from itertools.
+Extended Iterator lib. This library is made to learn rust iterator and some list manipulation algorithm. Some function taken from [Itertools](https://crates.io/crates/itertools).
 
 ## UniqueBy
 
-Duplicates are detected by comparing the key they map to with the keying function `f` by hash and equality. The keys are stored in a hash set in the [Itertools](https://crates.io/crates/itertools).
+Duplicates are detected by comparing the key they map to with the keying function `f` by hash and equality. The keys are stored in a hash set in the iterator.
 	
 ``` rust
 // get from itertool
