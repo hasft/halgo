@@ -1,0 +1,7 @@
+[package]
+name = "halgo"
+version = "0.1.0"
+authors = ["Haska Fikri Tauhid <haskafikritauhid@gmail.com>"]
+edition = "2018"
+
+[dependencies]
