@@ -1,5 +1,5 @@
 # Halgo
-Extended Iterator lib. This is lib is made to learn rust iterator and some list manipulation algorithm. Some function taken from itertools.
+Extended Iterator lib. This library is made to learn rust iterator and some list manipulation algorithm. Some function taken from itertools.
 
 ## UniqueBy
 
