@@ -1,9 +1,12 @@
+# Halgo
+Extended Iterator lib. This is lib is made to learn rust iterator and some list manipulation algorithm. Some function taken from itertools.
+
 ## UniqueBy
 
 Duplicates are detected by comparing the key they map to with the keying function `f` by hash and equality. The keys are stored in a hash set in the iterator.
 	
 ``` rust
-//halgo version
+// get from itertool
 
 impl<I,V,F> Iterator for UniqueBy<I,V,F> where I: Iterator, V: Eq + Hash, F: FnMut(&I::Item) -> V {
     type Item = I::Item;
